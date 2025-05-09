@@ -2,6 +2,10 @@
 
   "classes": [
     {
+      "type_name": "楚剧",
+      "type_id": "楚剧"
+    },
+    {
       "type_name": "京剧",
       "type_id": "京剧"
     },
