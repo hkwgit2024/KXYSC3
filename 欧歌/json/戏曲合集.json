@@ -6,6 +6,14 @@
       "type_id": "楚剧"
     },
     {
+      "type_name": "黄梅戏",
+      "type_id": "黄梅戏"
+    },
+    {
+      "type_name": "湖北大鼓",
+      "type_id": "湖北大鼓"
+    },
+    {
       "type_name": "京剧",
       "type_id": "京剧"
     },
@@ -32,11 +40,6 @@
     {
       "type_name": "歌仔戏",
       "type_id": "歌仔戏"
-    },
-  
-    {
-      "type_name": "黄梅戏",
-      "type_id": "黄梅戏"
     },
     {
       "type_name": "评剧",
@@ -71,7 +74,7 @@
       "type_name": "百花潮剧院",
       "type_id": "百花潮剧院"
     },
-        {
+    {
       "type_name": "香港潮剧",
       "type_id": "香港潮剧"
     },
@@ -83,7 +86,7 @@
       "type_name": "潮剧团",
       "type_id": "潮剧团"
     },
-        {
+    {
       "type_name": "潮剧全剧",
       "type_id": "潮剧全剧"
     }, 
@@ -95,7 +98,6 @@
       "type_name": "名家潮剧",
       "type_id": "名家潮剧"
     },
-  
     {
       "type_name": "潮汕小品",
       "type_id": "潮汕小品"
@@ -104,9 +106,6 @@
       "type_name": "潮汕讲古",
       "type_id": "潮汕讲古"
     },
-
-
-
     {
       "type_name": "河北梆子",
       "type_id": "河北梆子"
