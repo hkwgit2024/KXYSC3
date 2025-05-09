@@ -22,6 +22,14 @@
       "type_id": "湖北汉剧"
     },
     {
+      "type_name": "二人转",
+      "type_id": "二人转"
+    },
+    {
+      "type_name": "老电影",
+      "type_id": "老电影"
+    },
+    {
       "type_name": "京剧",
       "type_id": "京剧"
     },
