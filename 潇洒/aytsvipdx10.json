@@ -2,7 +2,7 @@
     "spider": "./spider.jar;md5;6044e3ceb295d82028c72e4524bae5f5",
     "wallpaper": "https://api.likepoems.com/img/bing",
     "sites": [
-	    {
+        {
             "key": "腾讯视频",
             "name": "腾讯｜视频",
             "type": 3,
