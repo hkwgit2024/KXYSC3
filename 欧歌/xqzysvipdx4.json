@@ -54,87 +54,6 @@
             "ext": "https://xn--dkw0c.v.nxog.top/m//公告.php?b=【公众号欧歌APP】网络收集,请勿演示贩卖"
         },
         {
-            "key": "csp_woog",
-            "name": "🐲玩欧｜4K弹幕",
-            "type": 3,
-            "changeable": "0",
-            "api": "csp_DuopanGuard",
-            "filterable": 1,
-            "jar": "./jars/csp_woog.jar",
-            "ext": {
-                "site_urls": [
-                    "https://woog.nxog.eu.org",
-                    "https://woog.xn--dkw.xn--6qq986b3xl"
-                ],
-                "url_key": "woog",
-                "threadinfo": {
-                    "chunksize": 228,
-                    "threads": 10
-                }
-            }
-        },
-        {
-            "key": "config",
-            "name": "🐲玩欧┃配置",
-            "type": 3,
-            "jar": "./jars/config.jar",
-            "api": "csp_Config",
-            "searchable": 0
-        },
-        {
-            "key": "csp_woogkk",
-            "name": "🐲夸快┃非会员4K",
-            "type": 3,
-            "changeable": "0",
-            "api": "csp_woog",
-            "filterable": 1,
-            "jar": "./jars/csp_woogkk.jar",
-            "ext": {
-                "site_urls": [
-                    "hhttps://ogkk.nxog.eu.org",
-                    "https://ogkk.xn--dkw.xn--6qq986b3xl"
-                ],
-                "url_key": "woogkk",
-                "threadinfo": {
-                    "chunksize": 259,
-                    "threads": 60
-                }
-            }
-        },
-        {
-            "key": "csp_欧歌123",
-            "name": "🐲夸快┃配置",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "jar": "./jars/csp_欧歌123.jar"
-        },
-        {
-            "key": "欧哥",
-            "name": "❤欧歌｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "./json/og.json?"
-        },
-        {
-            "key": "配置中心",
-            "name": "❤配置｜中心",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
             "key": "荐片",
             "name": "💡荐片｜影视",
             "api": "csp_Jianpian",
@@ -1081,6 +1000,87 @@
                 "ratio": 1.433
             },
             "ext": "./json/pan1.json"
+        },
+		        {
+            "key": "csp_woog",
+            "name": "🐲玩欧｜4K弹幕",
+            "type": 3,
+            "changeable": "0",
+            "api": "csp_DuopanGuard",
+            "filterable": 1,
+            "jar": "./jars/csp_woog.jar",
+            "ext": {
+                "site_urls": [
+                    "https://woog.nxog.eu.org",
+                    "https://woog.xn--dkw.xn--6qq986b3xl"
+                ],
+                "url_key": "woog",
+                "threadinfo": {
+                    "chunksize": 228,
+                    "threads": 10
+                }
+            }
+        },
+        {
+            "key": "config",
+            "name": "🐲玩欧┃配置",
+            "type": 3,
+            "jar": "./jars/config.jar",
+            "api": "csp_Config",
+            "searchable": 0
+        },
+        {
+            "key": "csp_woogkk",
+            "name": "🐲夸快┃非会员4K",
+            "type": 3,
+            "changeable": "0",
+            "api": "csp_woog",
+            "filterable": 1,
+            "jar": "./jars/csp_woogkk.jar",
+            "ext": {
+                "site_urls": [
+                    "hhttps://ogkk.nxog.eu.org",
+                    "https://ogkk.xn--dkw.xn--6qq986b3xl"
+                ],
+                "url_key": "woogkk",
+                "threadinfo": {
+                    "chunksize": 259,
+                    "threads": 60
+                }
+            }
+        },
+        {
+            "key": "csp_欧歌123",
+            "name": "🐲夸快┃配置",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "jar": "./jars/csp_欧歌123.jar"
+        },
+        {
+            "key": "欧哥",
+            "name": "❤欧歌｜4K弹幕",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/og.json?"
+        },
+        {
+            "key": "配置中心",
+            "name": "❤配置｜中心",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
         },
         {
             "key": "趣盘",
