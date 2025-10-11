@@ -126,14 +126,14 @@
 	     },
 	     {
             "key": "豆瓣2",
-            "name": "📢【公众号欧歌APP】网络收集,请勿演示贩卖",
+            "name": "💡豆瓣2｜影视",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢【公众号欧歌APP】网络收集,请勿演示贩卖公告❤更新:5/7❤",
+            "name": "💡豆瓣1｜影视",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
