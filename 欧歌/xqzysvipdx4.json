@@ -143,14 +143,6 @@
             "ext": "http://api2.rinhome.com"
         },
         {
-            "key": "移动",
-            "name": "💡移动｜影视",
-            "type": 3,
-            "api": "csp_YDjisu",
-            "searchable": 1,
-            "changeable": 1
-        },
-        {
             "key": "低端",
             "name": "💡低端｜影视",
             "type": 3,
