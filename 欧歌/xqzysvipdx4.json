@@ -36,26 +36,9 @@
             "order_num": 142,
             "ext": "./js/我的哔哩.js?type=url&params=./json/美食.json"
         },
-        {
-            "key": "豆瓣2",
-            "name": "📢【公众号欧歌APP】网络收集,请勿演示贩卖",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0
-        },
-        {
-            "key": "豆瓣1",
-            "name": "📢【公众号欧歌APP】网络收集,请勿演示贩卖公告❤更新:5/7❤",
-            "type": 3,
-            "api": "csp_Notice",
-            "searchable": 0,
-            "changeable": 0,
-            "jar": "./jars/豆瓣1.jar",
-            "ext": "https://xn--dkw0c.v.nxog.top/m//公告.php?b=【公众号欧歌APP】网络收集,请勿演示贩卖"
-        },
 		{
 			"key": "魔都资源1",
-			"name": "魔都|秒播",
+			"name": "🎁会员秒播1┃买康兄盒子就送双端专享会员",
 			"type": 1,
 			"api": "https://www.mdzyapi.com/api.php/provide/vod",
             "playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
@@ -98,7 +81,7 @@
                                  ]
 		        },
 {"key": "高清资源网",
-"name": "视频┃秒播",
+"name": "🎁会员秒播2┃买康兄盒子就送双端专享会员",
 "type": 1,
 "api": "https://api.yzzy-api.com/inc/apijson.php?ac=list",
 "searchable": 1,
@@ -140,51 +123,24 @@
                                 "武侠片",
 				                "记录片"
                                  ]
-	},
-    {
-			"key": "ikun资源1",
-			"name": "ikun",
-			"type": 1,
-			"api": "https://ikunzyapi.com/api.php/seaxml/vod",
-            "playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
-			"searchable": 1,
-			"changeable": 1,
-                        "categories":[
-                                "国产剧",
-			        "香港剧",
-                                "国产动漫",
-				"韩国剧",
-				"欧美剧",
-				"日本剧",
-				"台湾剧",
-				"海外剧",
-				"泰国剧",
-				"大陆综艺",
-				"港台综艺",
-				"日韩综艺",
-				"欧美综艺",
-				"国产动漫",
-				"日韩动漫",
-				"欧美动漫",
-				"港台动漫",
-                                "动作片",
-                                "喜剧片",
-                                "爱情片",
-                                "科幻片",
-                                "恐怖片",
-                                "剧情片",
-                                "战争片",
-                                "短剧大全",
-                                "重生民国",
-                                "穿越年代",
-                                "现代言情",
-                                "反转爽文",
-                                "女恋总裁",
-                                "闪婚离婚",
-                                "古装仙侠",
-				                "都市脑洞"
-                                 ]
-		},
+	     },
+	     {
+            "key": "豆瓣2",
+            "name": "📢【公众号欧歌APP】网络收集,请勿演示贩卖",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        },
+        {
+            "key": "豆瓣1",
+            "name": "📢【公众号欧歌APP】网络收集,请勿演示贩卖公告❤更新:5/7❤",
+            "type": 3,
+            "api": "csp_Notice",
+            "searchable": 0,
+            "changeable": 0,
+            "jar": "./jars/豆瓣1.jar",
+            "ext": "https://xn--dkw0c.v.nxog.top/m//公告.php?b=【公众号欧歌APP】网络收集,请勿演示贩卖"
+        },
         {
             "key": "荐片",
             "name": "💡荐片｜影视",
