@@ -34,6 +34,42 @@
       "type_id": "广场舞"
     },
     {
+      "type_name": "小品",
+      "type_id": "小品"
+    },
+    {
+      "type_name": "相声",
+      "type_id": "相声"
+    },
+    {
+      "type_name": "美女写真",
+      "type_id": "美女写真"
+    },
+    {
+      "type_name": "美食频道",
+      "type_id": "美食频道"
+    },
+    {
+      "type_name": "荒野求生",
+      "type_id": "荒野求生"
+    },
+    {
+      "type_name": "做菜厨艺",
+      "type_id": "做菜厨艺"
+    },
+    {
+      "type_name": "音乐MV",
+      "type_id": "音乐MV"
+    },
+    {
+      "type_name": "歌曲KTV",
+      "type_id": "歌曲KTV"
+    },
+    {
+      "type_name": "军事频道",
+      "type_id": "军事频道"
+    },
+    {
       "type_name": "京剧",
       "type_id": "京剧"
     },
