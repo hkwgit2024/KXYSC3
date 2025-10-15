@@ -3,7 +3,7 @@
     "logo": "https://alicliimg.clewm.net/342/790/68790342/17369906896774bd3d1d8ba1877dea5d967a137aa23d91736990672.gif",
     "spider": "./spider.jar",
     "sites": [
-	{
+	    {
             "key": "戏曲",
             "name": "🎁戏曲综艺┃买康兄盒子就送双端专享会员",
             "type": 3,
@@ -36,16 +36,104 @@
             "order_num": 142,
             "ext": "./js/我的哔哩.js?type=url&params=./json/美食.json"
         },
-        {
+		{
+			"key": "魔都资源1",
+			"name": "🎁会员秒播1┃买康兄盒子就送双端专享会员",
+			"type": 1,
+			"api": "https://www.mdzyapi.com/api.php/provide/vod",
+            "playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
+			"searchable": 1,
+			"changeable": 1,
+                        "categories":[
+                                "国产剧",
+			                    "香港剧",
+                                "国产动漫",
+				"韩国剧",
+				"欧美剧",
+				"日本剧",
+				"台湾剧",
+				"海外剧",
+				"泰国剧",
+				"大陆综艺",
+				"港台综艺",
+				"日韩综艺",
+				"欧美综艺",
+				"国产动漫",
+				"日韩动漫",
+				"欧美动漫",
+				"港台动漫",
+                                "动作片",
+                                "喜剧片",
+                                "爱情片",
+                                "科幻片",
+                                "恐怖片",
+                                "剧情片",
+                                "战争片",
+                                "短片",
+                                "里番动漫",
+                                "动漫电影",
+                                "现代言情",
+                                "反转爽文",
+                                "女恋总裁",
+                                "闪婚离婚",
+                                "古装仙侠",
+				                "都市脑洞"
+                                 ]
+		        },
+{"key": "高清资源网",
+"name": "🎁会员秒播2┃买康兄盒子就送双端专享会员",
+"type": 1,
+"api": "https://api.yzzy-api.com/inc/apijson.php?ac=list",
+"searchable": 1,
+"quickSearch": 1,
+"filterable": 1,
+"playurl": "json:https://uutb.centos.chat/jsonwjm.php/?url=",
+"categories":[
+                                "国产剧",
+			                    "香港剧",
+                                "国产动漫",
+                                "短剧大全",
+				"韩国剧",
+				"欧美剧",
+				"日本剧",
+				"台湾剧",
+				"海外剧",
+				"泰国剧",
+				"大陆综艺",
+				"港台综艺",
+				"日韩综艺",
+				"欧美综艺",
+				"国产动漫",
+				"日韩动漫",
+				"欧美动漫",
+				"港台动漫",
+                                "动作片",
+                                "喜剧片",
+                                "爱情片",
+                                "科幻片",
+                                "恐怖片",
+                                "剧情片",
+                                "战争片",
+                                "灾难片",
+                                "犯罪片",
+                                "悬疑片",
+                                "惊悚片",
+                                "奇幻片",
+                                "冒险片",
+                                "武侠片",
+				                "记录片"
+                                 ]
+	     },
+	     {
             "key": "豆瓣2",
-            "name": "📢【公众号欧歌APP】网络收集,请勿演示贩卖",
+            "name": "💡豆瓣2｜影视",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
         },
         {
             "key": "豆瓣1",
-            "name": "📢【公众号欧歌APP】网络收集,请勿演示贩卖公告❤更新:5/7❤",
+            "name": "💡豆瓣1｜影视",
             "type": 3,
             "api": "csp_Notice",
             "searchable": 0,
@@ -54,101 +142,12 @@
             "ext": "https://xn--dkw0c.v.nxog.top/m//公告.php?b=【公众号欧歌APP】网络收集,请勿演示贩卖"
         },
         {
-            "key": "csp_woog",
-            "name": "🐲玩欧｜4K弹幕",
-            "type": 3,
-            "changeable": "0",
-            "api": "csp_DuopanGuard",
-            "filterable": 1,
-            "jar": "./jars/csp_woog.jar",
-            "ext": {
-                "site_urls": [
-                    "https://woog.nxog.eu.org",
-                    "https://woog.xn--dkw.xn--6qq986b3xl"
-                ],
-                "url_key": "woog",
-                "threadinfo": {
-                    "chunksize": 228,
-                    "threads": 10
-                }
-            }
-        },
-        {
-            "key": "config",
-            "name": "🐲玩欧┃配置",
-            "type": 3,
-            "jar": "./jars/config.jar",
-            "api": "csp_Config",
-            "searchable": 0
-        },
-        {
-            "key": "csp_woogkk",
-            "name": "🐲夸快┃非会员4K",
-            "type": 3,
-            "changeable": "0",
-            "api": "csp_woog",
-            "filterable": 1,
-            "jar": "./jars/csp_woogkk.jar",
-            "ext": {
-                "site_urls": [
-                    "hhttps://ogkk.nxog.eu.org",
-                    "https://ogkk.xn--dkw.xn--6qq986b3xl"
-                ],
-                "url_key": "woogkk",
-                "threadinfo": {
-                    "chunksize": 259,
-                    "threads": 60
-                }
-            }
-        },
-        {
-            "key": "csp_欧歌123",
-            "name": "🐲夸快┃配置",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "jar": "./jars/csp_欧歌123.jar"
-        },
-        {
-            "key": "欧哥",
-            "name": "❤欧歌｜4K弹幕",
-            "type": 3,
-            "api": "csp_PanWebShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1,
-            "changeable": 1,
-            "ext": "./json/og.json?"
-        },
-        {
-            "key": "配置中心",
-            "name": "❤配置｜中心",
-            "type": 3,
-            "api": "csp_Config",
-            "searchable": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.597
-            }
-        },
-        {
             "key": "荐片",
             "name": "💡荐片｜影视",
             "api": "csp_Jianpian",
             "type": 3,
             "playerType": 1,
             "ext": "http://api2.rinhome.com"
-        },
-        {
-            "key": "移动",
-            "name": "💡移动｜影视",
-            "type": 3,
-            "api": "csp_YDjisu",
-            "searchable": 1,
-            "changeable": 1
         },
         {
             "key": "低端",
@@ -1089,6 +1088,87 @@
                 "ratio": 1.433
             },
             "ext": "./json/pan1.json"
+        },
+		        {
+            "key": "csp_woog",
+            "name": "🐲玩欧｜4K弹幕",
+            "type": 3,
+            "changeable": "0",
+            "api": "csp_DuopanGuard",
+            "filterable": 1,
+            "jar": "./jars/csp_woog.jar",
+            "ext": {
+                "site_urls": [
+                    "https://woog.nxog.eu.org",
+                    "https://woog.xn--dkw.xn--6qq986b3xl"
+                ],
+                "url_key": "woog",
+                "threadinfo": {
+                    "chunksize": 228,
+                    "threads": 10
+                }
+            }
+        },
+        {
+            "key": "config",
+            "name": "🐲玩欧┃配置",
+            "type": 3,
+            "jar": "./jars/config.jar",
+            "api": "csp_Config",
+            "searchable": 0
+        },
+        {
+            "key": "csp_woogkk",
+            "name": "🐲夸快┃非会员4K",
+            "type": 3,
+            "changeable": "0",
+            "api": "csp_woog",
+            "filterable": 1,
+            "jar": "./jars/csp_woogkk.jar",
+            "ext": {
+                "site_urls": [
+                    "hhttps://ogkk.nxog.eu.org",
+                    "https://ogkk.xn--dkw.xn--6qq986b3xl"
+                ],
+                "url_key": "woogkk",
+                "threadinfo": {
+                    "chunksize": 259,
+                    "threads": 60
+                }
+            }
+        },
+        {
+            "key": "csp_欧歌123",
+            "name": "🐲夸快┃配置",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1,
+            "jar": "./jars/csp_欧歌123.jar"
+        },
+        {
+            "key": "欧哥",
+            "name": "❤欧歌｜4K弹幕",
+            "type": 3,
+            "api": "csp_PanWebShare",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": "./json/og.json?"
+        },
+        {
+            "key": "配置中心",
+            "name": "❤配置｜中心",
+            "type": 3,
+            "api": "csp_Config",
+            "searchable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            }
         },
         {
             "key": "趣盘",
