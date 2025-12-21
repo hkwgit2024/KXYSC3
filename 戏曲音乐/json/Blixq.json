@@ -1,5 +1,121 @@
 {
     "classes": [
+	    {
+			"type_name": "楚剧",
+			"type_id": "楚剧超清"
+		},
+	    {
+			"type_name": "黄梅戏",
+			"type_id": "黄梅戏超清"
+		},
+	    {
+			"type_name": "湖北大鼓",
+			"type_id": "湖北大鼓超清"
+		},
+	    {
+			"type_name": "花鼓戏",
+			"type_id": "花鼓戏超清"
+		},
+		{
+			"type_name": "老电影",
+			"type_id": "老电影超清"
+		},
+		{
+			"type_name": "相声小品",
+			"type_id": "相声小品超清"
+		},
+		{
+			"type_name": "音乐",
+			"type_id": "音乐"
+		},
+		{
+			"type_name": "歌曲",
+			"type_id": "歌曲"
+		},
+		{
+			"type_name": "美女写真",
+			"type_id": "美女写真超清"
+		},
+		{
+			"type_name": "MV",
+			"type_id": "MV4K"
+		},
+		{
+			"type_name": "舞曲",
+			"type_id": "舞曲超清"
+		},
+		{
+			"type_name": "舞蹈",
+			"type_id": "舞蹈"
+		},
+	    {
+			"type_name": "广场舞",
+			"type_id": "广场舞超清"
+		},
+        {  
+			"type_name": "沙雕动漫",
+			"type_id": "一口气沙雕动漫"
+		},
+		{
+			"type_name": "美食",
+			"type_id": "美食超清"
+		},
+		{
+			"type_name": "食谱",
+			"type_id": "食谱"
+		},	
+		{
+			"type_name": "瑜伽",
+			"type_id": "瑜伽"
+		},
+		{
+			"type_name": "体育",
+			"type_id": "体育超清"
+		},
+		{
+			"type_name": "球星",
+			"type_id": "球星"
+		},
+		{
+			"type_name": "旅游",
+			"type_id": "旅游"
+		},
+		{
+			"type_name": "风景",
+			"type_id": "风景4K"
+		},
+		{
+			"type_name": "说案",
+			"type_id": "说案"
+		},
+		{
+			"type_name": "知名UP主",
+			"type_id": "知名UP主"
+		},
+		{
+			"type_name": "探索发现",
+			"type_id": "探索发现超清"
+		},
+		{
+			"type_name": "纪录片",
+			"type_id": "纪录片超清"
+		},
+		{
+			"type_name": "鬼畜",
+			"type_id": "鬼畜"
+		},
+		{
+			"type_name": "搞笑",
+			"type_id": "搞笑超清"
+		},
+		{
+			"type_name": "儿童",
+			"type_id": "儿童超清"
+		},
+		{
+			"type_name": "动物世界",
+			"type_id": "动物世界超清"
+		},
         {
             "type_name": "潮剧全剧",
             "type_id": "潮剧全剧超清"
@@ -25,16 +141,8 @@
             "type_id": "吕剧超清"
         },
         {
-            "type_name": "楚剧",
-            "type_id": "楚剧超清"
-        },
-        {
             "type_name": "歌仔戏",
             "type_id": "歌仔戏超清"
-        },
-        {
-            "type_name": "黄梅戏",
-            "type_id": "黄梅戏超清"
         },
         {
             "type_name": "评剧",
@@ -43,10 +151,6 @@
         {
             "type_name": "豫剧",
             "type_id": "豫剧超清"
-        },
-        {
-            "type_name": "花鼓戏",
-            "type_id": "花鼓戏超清"
         },
         {
             "type_name": "布袋戏",

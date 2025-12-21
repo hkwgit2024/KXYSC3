@@ -1,6 +1,26 @@
 {
 
 	"classes": [
+	    {
+			"type_name": "楚剧",
+			"type_id": "楚剧"
+		},
+	    {
+			"type_name": "黄梅戏",
+			"type_id": "黄梅戏"
+		},
+	    {
+			"type_name": "湖北大鼓",
+			"type_id": "湖北大鼓"
+		},
+	    {
+			"type_name": "花鼓戏",
+			"type_id": "花鼓戏"
+		},
+		{
+			"type_name": "老电影",
+			"type_id": "老电影"
+		},
 		{
 			"type_name": "音乐",
 			"type_id": "音乐"
@@ -8,6 +28,10 @@
 		{
 			"type_name": "歌曲",
 			"type_id": "歌曲"
+		},
+		{
+			"type_name": "美女写真",
+			"type_id": "美女写真"
 		},
 		{
 			"type_name": "MV",
