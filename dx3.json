@@ -1,51 +1,51 @@
 { 
 	"urls": [
         { 
-            "url": "https://hk.gh-proxy.com/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/饭太硬/api.json", 
+            "url": "./饭太硬/api.json", 
             "name": "饭太硬" 
         },
         { 
-            "url": "https://hk.gh-proxy.com/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/小米/api.json", 
+            "url": "./小米/api.json", 
             "name": "小米" 
         },
         { 
-            "url": "https://hk.gh-proxy.com/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/肥猫/api.json", 
+            "url": "./肥猫/api.json", 
             "name": "肥猫" 
         },
         { 
-            "url": "https://hk.gh-proxy.com/https://raw.githubusercontent.com/ls125781003/xyqonlinerule/main/XYQTVBox.json", 
+            "url": "./XYQTVBox.json", 
             "name": "香雅情[原]" 
         },
         {  
-            "url": "https://hk.gh-proxy.com/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/南风/api.json", 
+            "url": "./南风/api.json", 
             "name": "南风" 
         },
         { 
-            "url": "https://hk.gh-proxy.com/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/PG/api.json", 
+            "url": "./PG/api.json", 
             "name": "PG" 
         },
         { 
-            "url": "https://hk.gh-proxy.com/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/摸鱼儿/api.json", 
+            "url": "./摸鱼儿/api.json", 
             "name": "摸鱼儿" 
         },
         {   
-        	"url": "https://hk.gh-proxy.com/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/王二小/api.json", 
+        	"url": "./王二小/api.json", 
             "name": "王二小" 
         },
         { 
-            "url": "https://hk.gh-proxy.com/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/潇洒/api.json", 
+            "url": "./潇洒/api.json", 
             "name": "潇洒" 
         },
         { 
-            "url": "https://hk.gh-proxy.com/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/戏曲音乐/api.json", 
+            "url": "./戏曲音乐/api.json", 
             "name": "戏曲音乐" 
         },
         {   
-        	"url": "https://hk.gh-proxy.com/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/少儿频道/api.json", 
+        	"url": "./少儿频道/api.json", 
             "name": "少儿频道" 
         },
         {   
-            "url": "https://hk.gh-proxy.com/https://raw.githubusercontent.com/ls125781003/tvboxtg/main/OK/api.json", 
+            "url": "./OK/api.json", 
             "name": "OK" 
         },
         {
