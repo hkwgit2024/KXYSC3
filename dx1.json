@@ -49,47 +49,47 @@
             "name": "OK" 
         },
         {
-            "url": "https://hub.gitmirror.com/raw.githubusercontent.com/ls125781003/testboxapi/main/aowu/api.json",
+            "url": "./aowu/api.json",
             "name": "嗷呜"
         },
         {
-            "url": "https://hub.gitmirror.com/raw.githubusercontent.com/ls125781003/testboxapi/main/tvbox/api.json",
+            "url": "./tvbox/api.json",
             "name": "精简多线-聚"
         },
         {
-            "url": "https://hub.gitmirror.com/raw.githubusercontent.com/ls125781003/testboxapi/main/test1/api.json",
+            "url": "./test1/api.json",
             "name": "精简多线-选[小虎斑]"
         },
         {
-            "url": "https://hub.gitmirror.com/raw.githubusercontent.com/ls125781003/testboxapi/main/cang/影视/api.json",
+            "url": "./cang/影视/api.json",
             "name": "精简多线-影视"
         },
         {
-            "url": "https://hub.gitmirror.com/raw.githubusercontent.com/ls125781003/testboxapi/main/cang/动漫/api.json",
+            "url": "./cang/动漫/api.json",
             "name": "精简多线-动漫"
         },
         {
-            "url": "https://hub.gitmirror.com/raw.githubusercontent.com/ls125781003/testboxapi/main/cang/文艺/api.json",
+            "url": "./cang/文艺/api.json",
             "name": "精简多线-文艺"
         },
         {
-            "url": "https://hub.gitmirror.com/raw.githubusercontent.com/ls125781003/testboxapi/main/cang/体育/api.json",
+            "url": "./cang/体育/api.json",
             "name": "精简多线-体育"
         },
         {
-            "url": "https://hub.gitmirror.com/raw.githubusercontent.com/ls125781003/testboxapi/main/cang/教育/api.json",
+            "url": "./cang/教育/api.json",
             "name": "精简多线-教育"
         },
         {
-            "url": "https://hub.gitmirror.com/raw.githubusercontent.com/ls125781003/testboxapi/main/cang/直播/api.json",
+            "url": "./cang/直播/api.json",
             "name": "精简多线-直播"
         },
         {
-            "url": "https://hub.gitmirror.com/raw.githubusercontent.com/ls125781003/testboxapi/main/cang/磁力/api.json",
+            "url": "./cang/磁力/api.json",
             "name": "精简多线-磁力"
         },
         {
-            "url": "https://hub.gitmirror.com/raw.githubusercontent.com/ls125781003/testboxapi/main/cang/云盘/api.json",
+            "url": "./cang/云盘/api.json",
             "name": "精简多线-云盘"
         }
     ]
