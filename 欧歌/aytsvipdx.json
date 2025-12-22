@@ -6,11 +6,11 @@
 "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 "logo": "https://pan.shangui.cc/f/66yatp/t017acbfe7120dcf421.gif",
 "warningText":"【康兄盒子】郑重提醒您:
-📢凡购买康兄移动高清智能网络盒子的用户🎅 
-🎁可免费专享👉手机➕盒子👈双端影视会员🎁
-👉本软件现已支持AI语音功能🎙按着绿色语音键可喊出节目👈
-🌳本软件内置资源与原作者无任何版权关联,所有内置资源均由用户自行搜集于网络
-⚠本软件原本空壳软件,仅用于测试与学习,请于使用后24小时内删除",
+  📢凡购买康兄移动高清智能网络盒子的用户🎅 
+  🎁可免费专享👉手机➕盒子👈双端影视会员🎁
+  👉本软件现已支持AI语音功能🎙按着绿色语音键可喊出节目👈
+  🌳本软件内置资源与原作者无任何版权关联,所有内置资源均由用户自行搜集于网络
+  ⚠本软件原本空壳软件,仅用于测试与学习,请于使用后24小时内删除",
 
 "lives":[
         {
@@ -22,14 +22,21 @@
 ],
 
 "sites": [
-{"key": "戏曲","name": "🎁戏曲综艺┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/戏曲合集.json"},
-{"key": "合集","name": "🅱️B站合集┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/合集.json"},
-{"key": "演唱会","name": "🅱️站演唱会┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/演唱会.json"},
-{"key": "MV","name": "🅱️B站歌曲┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/歌曲MV.json"},
-{"key": "美食","name": "🅱️B站美食┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/美食.json"},
-{"key":"csp_BBB","name":"🅱️B站套餐┃买康兄盒子就送双端专享会员","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./lib/哔哩套餐1.json"},
-{"key": "Bili","name": "🅱️B站套餐2┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/哔哩套餐2.json"},
-{"key": "软件","name": "🅱️B站软件┃买康兄盒子就送双端专享会员","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/软件教程.json"}, 
+{"key":"腾","name":"🎄腾腾┃买康兄盒子就送双端专享会员","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/腾讯视频.js"},
+{"key":"优","name":"🎄优优┃买康兄盒子就送双端专享会员","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/优酷视频.js"},
+{"key":"芒","name":"🎄芒芒┃买康兄盒子就送双端专享会员","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/芒果视频.js"},
+{"key":"狗","name":"🎄狗狗┃买康兄盒子就送双端专享会员","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/搜狗视频.js"},
+{"key":"爱","name":"🎄爱爱┃买康兄盒子就送双端专享会员","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/爱奇艺.js"},
+{"key":"三","name":"🎄三六┃买康兄盒子就送双端专享会员","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/三六零.js"},
+{"key":"南瓜影视2","name":"🎄南瓜┃影视2","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/南瓜影视.js"},
+
+{"key":"良品短剧","name":"🐞良品┃短剧","type":3,"api":"csp_Wexduanjuvip","searchable":1,"changeable":1},    
+{"key":"精品短剧","name":"🐞精品┃短剧","type":3,"api":"csp_Wexduanjuvip","searchable":1,"changeable":1},
+{"key":"星芽短剧","name":"🐞星芽┃短剧","type":3,"api":"csp_AppXY","searchable":1,"quickSearch":0,"filterable":0},
+{"key":"csp_XBPQ_VS短剧","name":"🐞影院┃短剧","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.ytshengde.com/sanyisw/{cateId}--hits------{catePg}---{year}.html","分类":"短剧$5"}},
+{"key":"csp_XBPQ_胖嘟嘟","name":"🐞嘟嘟┃短剧","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类":"全部$qb#言情$yq#古代$dg#都市$ds","分类url":"https://m.pangdo.com/{cateId}/list_{catePg}.html"}},
+
+{"key":"采集之王","name":"🐲采王┃采集","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"order_num":142,"ext":"https://tv.nxog.top/m/js/采集之王.js?type=url&params=https://tv.nxog.top/m/json/采集静态.json"},
 
 {"key":"南瓜影视","name":"🍵南瓜┃影视","type":3,"api":"csp_WexNgys","searchable":1,"quickSearch":1,"filterable":0},
 {"key":"快看影视","name":"🍵快看┃影视","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
@@ -64,23 +71,7 @@
 {"key":"花蕊影视","name":"🍵花蕊┃影视","type":3,"api":"csp_Wexhuaruitv","searchable":1,"changeable":1},
 {"key":"甲子影视","name":"🍵甲子┃影视","type":3,"api":"csp_Wexjiazitv","searchable":1,"changeable":1},
 
-{"key": "学堂","name": "🅰️学堂┃教育","type": 3,"api": "csp_Bili","searchable":0,"quickSearch": 0,"filterable": 1,"ext":"./lib/学堂教育.json"}, 
-{"key": "少儿","name": "🅰️少儿┃合集","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/少儿合集.json"},
-{"key": "小学课堂","name": "🅰️小学┃课堂","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/小学课堂.json"},
-{"key": "初中课堂","name": "🅰️初中┃课堂","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/初中课堂.json"},
-{"key": "高中课堂","name": "🅰️高中┃课堂","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/高中课堂.json"},
-{"key":"小灯塔科学","name":"🌏科学┃小灯塔","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/小灯塔科学.json"},
-{"key":"小灯塔地理","name":"🌏地理┃小灯塔","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/小灯塔地理.json"},
-{"key":"小灯塔百科","name":"🌏百科┃小灯塔","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/小灯塔百科.json"},
-{"key":"小灯塔国学","name":"🌏国学┃小灯塔","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/小灯塔国学.json"},
-{"key":"儿童口才","name":" 🧒口才┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童口才.json"},
-{"key":"儿童拼音","name":" 🧒拼音┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童拼音.json"},
-{"key":"儿童识字","name":" 🧒识字┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童识字.json"},
-{"key":"儿童思维","name":" 🧒思维┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童思维.json"},
-{"key":"儿童英语","name":" 🧒英语┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童英语.json"},
-{"key":"儿童硬笔","name":" 🧒硬笔┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童硬笔.json"},
-{"key":"儿童编程","name":" 🧒编程┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童编程.json"},
-{"key":"儿童武术","name":" 🧒武术┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童武术.json"},
+
 
 {"key": "555yingshi","name":"🎃555┃影视","type":3,"api":"csp_XBPQ","ext": {"分类":"电影$1#电视剧$2#动漫$4","分类url":"https://5moov.vip/vodshow/{cateId}--------{catePg}---.html"}},
 {"key":"橙汁","name":"🎃橙汁┃影视","type":3,"api":"csp_XBPQ","ext": {"分类":"短剧$42#电视剧$2#动漫$4#电影$1#综艺$3#纪录片$5","分类url":"https://ork.ink/show/{cateId}--------{catePg}---{year}.html"}},
@@ -101,18 +92,6 @@
 {"key":"大师兄","name":"💡大师兄┃影视","type":3,"api":"csp_XBPQ","ext":{"简介":"+剧情介绍：&&</p >","分类url":"https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html","分类":"电视剧$2#电影$1#动漫$4#综艺$3"},"jar": "./lib/xbpq新版.jar?inline=false"},
 {"key": "csp_虾酱影视","name": "💡虾酱┃影视","type": 3,"api": "csp_XBPQ","jar": "./lib/xbpq新版.jar?inline=false","ext": {"数组": "class=\"module-poster-item&&poster-item-info\">&&</a","副标题":"module-item-note\">&&</div>","图片": "data-original=\"&&\"","线路数组": "class=\"module-tab-item tab-item\"&&</div>","线路标题": "+<span>&&</small>[替换:</span><small>>>共]+集","播放数组": "module-play-list\">&&</div","搜索url": "https://www.xiajiangzj.top/vod/search.html?wd={wd}","搜索数组": "class=\"module-card-item&&module-card-item-footer\">&&</div","搜索图片": "data-original=\"&&\"","搜索副标题": "module-item-note\">&&</div","分类url": "https://www.xiajiangzj.top/vod/show/by/{by}/id/{cateId}/page/{catePg}.html","分类": "电影$1#剧集$2#综艺$3#动漫$4#动画片$29#短剧$28"}},
 
-
-
-{"key":"南瓜影视2","name":"🎄南瓜┃影视2","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/南瓜影视.js"},
-{"key":"腾","name":"🎄腾腾┃影视","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/腾讯视频.js"},
-{"key":"优","name":"🎄优优┃影视","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/优酷视频.js"},
-{"key":"芒","name":"🎄芒芒┃影视","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/芒果视频.js"},
-{"key":"狗","name":"🎄狗狗┃影视","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/搜狗视频.js"},
-{"key":"爱","name":"🎄爱爱┃影视","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/爱奇艺.js"},
-{"key":"三","name":"🎄三六┃影视","type":3,"api":"./lib/drpy2.min.js","ext":"./lib/三六零.js"},
-
-
-
 {"key":"️玩偶哥","name":"❤️玩偶哥┃4K","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/wog.json"},
 {"key":"️玩偶弟","name":"❤️玩偶弟┃4K","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/wod.json"},
 {"key":"️玩偶姐","name":"❤️玩偶姐┃4K","type":3,"api":"csp_XYQHikerAL","searchable":1,"quickSearch":1,"filterable":1,"ext":"./lib/woj.json"},
@@ -132,14 +111,37 @@
 {"key":"酷吧电影","name":"💘酷吧┃磁力","type":3,"api":"csp_KubaCL","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"美剧天堂","name":"💘美剧┃磁力","type":3,"api":"csp_MeijuTT","searchable":1,"quickSearch":1,"filterable":1},
 
+
+ 
+
+{"key": "学堂","name": "🅰️学堂┃教育","type": 3,"api": "csp_Bili","searchable":0,"quickSearch": 0,"filterable": 1,"ext":"./lib/学堂教育.json"}, 
+{"key": "少儿","name": "🅰️少儿┃合集","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/少儿合集.json"},
+{"key": "小学课堂","name": "🅰️小学┃课堂","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/小学课堂.json"},
+{"key": "初中课堂","name": "🅰️初中┃课堂","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/初中课堂.json"},
+{"key": "高中课堂","name": "🅰️高中┃课堂","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/高中课堂.json"},
+{"key":"小灯塔科学","name":"🌏科学┃小灯塔","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/小灯塔科学.json"},
+{"key":"小灯塔地理","name":"🌏地理┃小灯塔","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/小灯塔地理.json"},
+{"key":"小灯塔百科","name":"🌏百科┃小灯塔","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/小灯塔百科.json"},
+{"key":"小灯塔国学","name":"🌏国学┃小灯塔","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/小灯塔国学.json"},
+{"key":"儿童口才","name":" 🧒口才┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童口才.json"},
+{"key":"儿童拼音","name":" 🧒拼音┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童拼音.json"},
+{"key":"儿童识字","name":" 🧒识字┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童识字.json"},
+{"key":"儿童思维","name":" 🧒思维┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童思维.json"},
+{"key":"儿童英语","name":" 🧒英语┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童英语.json"},
+{"key":"儿童硬笔","name":" 🧒硬笔┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童硬笔.json"},
+{"key":"儿童编程","name":" 🧒编程┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童编程.json"},
+{"key":"儿童武术","name":" 🧒武术┃儿童","type":3,"api":"csp_Bili","searchable":0,"quickSearch":1,"filterable":1,"ext":"./lib/儿童武术.json"},
+{"key":"csp_BBB","name":"🅱️套餐┃哔哩","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":1,"ext":"./lib/哔哩套餐1.json"},
+{"key": "Bili","name": "🅱️套餐2┃哔哩","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/哔哩套餐2.json"},
+{"key": "软件","name": "🅰️软件┃教程","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/软件教程.json"}, 
+{"key": "演唱会","name": "🅰️演唱会┃哔哩","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/演唱会.json"}, 
+{"key": "戏曲","name": "🅰️戏曲┃合集","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/戏曲合集.json"},
+{"key": "合集","name": "💋合集┃哔哩","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/合集.json"}, 
+{"key": "MV","name": "🌈歌曲┃哔哩","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/歌曲MV.json"},
+{"key": "美食","name": "🌈美食┃哔哩","type": 3,"api": "csp_Bili","searchable": 0,"quickSearch": 0,"filterable": 1,"ext":"./lib/美食.json"},
+
 {"key": "球类","name": "⚽️球类┃合集","type": 3,"api": "csp_Bili","searchable":0,"quickSearch": 0,"filterable": 1,"ext":"./lib/球类合集.json"}, 
 {"key": "球星","name": "⚽️球星┃合集","type": 3,"api": "csp_Bili","searchable":0,"quickSearch": 0,"filterable": 1,"ext":"./lib/球星合集.json"}, 
-
-{"key":"良品短剧","name":"🐞良品┃短剧","type":3,"api":"csp_Wexduanjuvip","searchable":1,"changeable":1},    
-{"key":"精品短剧","name":"🐞精品┃短剧","type":3,"api":"csp_Wexduanjuvip","searchable":1,"changeable":1},
-{"key":"星芽短剧","name":"🐞星芽┃短剧","type":3,"api":"csp_AppXY","searchable":1,"quickSearch":0,"filterable":0},
-{"key":"csp_XBPQ_VS短剧","name":"🐞影院┃短剧","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类url":"https://www.ytshengde.com/sanyisw/{cateId}--hits------{catePg}---{year}.html","分类":"短剧$5"}},
-{"key":"csp_XBPQ_胖嘟嘟","name":"🐞嘟嘟┃短剧","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,"ext":{"分类":"全部$qb#言情$yq#古代$dg#都市$ds","分类url":"https://m.pangdo.com/{cateId}/list_{catePg}.html"}},
 
 {"key":"豆瓣",
 "name":"🍵公众号【蜗牛科技仓】",
@@ -148,8 +150,8 @@
 "searchable":0
 },
 
+
 {"key":"阿里云盘登录","name":"🐲阿里云盘登录","type":3,"api":"csp_AliYunPan","searchable":0,"quickSearch":0,"filterable":0,"ext":"http://127.0.0.1:9978/file/TVBox/tok.txt"},
-{"key":"采集之王","name":"🐲采王┃采集","type":3,"api":"./lib/drpy2.min.js","searchable":1,"quickSearch":1,"order_num":142,"ext":"https://tv.nxog.top/m/js/采集之王.js?type=url&params=https://tv.nxog.top/m/json/采集静态.json"},
 
 {"key":"暮暮动漫","name":"🚗暮暮┃动漫","type":3,"api":"csp_WebMuTeFun","searchable":1,"quickSearch":0,"filterable":0,"ext":"https://www.mutean.com"},
 {"key":"push_agent","name":"🎱推送┃电视","type":3,"api":"csp_Push","searchable":0,"filterable":0,"changeable":0,"jar":"./lib/woniu.jar;md5;244027cbc4b3cd016d8335d175688367","ext":{"token":"http://127.0.0.1:9978/file/TVBox/tok.txt","cookie":"http://127.0.0.1:9978/file/TVBox/quark.txt"}}
