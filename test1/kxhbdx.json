@@ -13,35 +13,35 @@
   "sites": [
     {
       "key": "tenteng",
-      "name": "落日|自定",
+      "name": "🐧落日|买康兄影视盒子就送双端专享会员",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/腾腾.js"
     },
     {
       "key": "youyou",
-      "name": "日出|自定",
+      "name": "🍎日出|买康兄影视盒子就送双端专享会员",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/优优.js"
     },
     {
       "key": "qiqi",
-      "name": "晚霞|自定",
+      "name": "🥭晚霞|买康兄影视盒子就送双端专享会员",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/奇奇.js"
     },
     {
       "key": "mangmang",
-      "name": "朝阳|自定",
+      "name": "🥝朝阳|买康兄影视盒子就送双端专享会员",
       "type": 3,
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/茫茫.js"
     },
     {
       "key": "馆源",
-      "name": "馆源|自定",
+      "name": "♻️馆源|买康兄影视盒子就送双端专享会员",
       "type": 3,
       "api": "csp_HB360"
     },
@@ -735,6 +735,7 @@
         }
       }
     },
+    {"name": "巧计","type": 1,"url": "https://zy.qiaoji8.com/xiafan.php?url=","ext": {"flag": ["QD4K","iyf","duanju","gzcj","GTV","GZYS","weggz","Ace"],"header": {"User-Agent": "okhttp/4.9.1"}}},
     {
       "name": "虎斑szy",
       "type": 1,
